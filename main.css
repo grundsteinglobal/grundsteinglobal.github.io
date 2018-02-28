@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  background:url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAFUlEQVQYlWNgGAJAUVExbaDdQAwAAIOgAMrtZYmFAAAAAElFTkSuQmCC
+  ) repeat;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 62%;
+
+}
+
+.title {
+  /*background-color: #222;*/
+  font-family: "porterbold";
+  text-align: center;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+
+.subtitle {
+  background-color: #222;
+  font-family: "porterbold";
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.title h1 {
+  font-size: 68pt;
+  background-color: white;
+  padding: 10px 10px 0px 10px;
+}
+
+.subtitle h3 {
+  font-size: 20pt;
+  color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+.bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6%;
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+
+@font-face {
+    font-family: "porterbold";
+    src:url("fonts/Porter Medium.otf");
+}
+
+@font-face {
+    font-family: "porterlight";
+    src:url("fonts/Porter Light.otf");
+}
