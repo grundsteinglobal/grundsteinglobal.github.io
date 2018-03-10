@@ -1,8 +1,8 @@
 body {
   background-color: white;
-  background:url(
+  /*background:url(
     data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAFUlEQVQYlWNgGAJAUVExbaDdQAwAAIOgAMrtZYmFAAAAAElFTkSuQmCC
-  ) repeat;
+  ) repeat;*/
 }
 
 .main {
@@ -24,7 +24,7 @@ body {
 }
 
 .subtitle {
-  background-color: #222;
+  /*background-color: #222;*/
   font-family: "porterbold";
   text-align: center;
   margin: 0;
@@ -35,11 +35,18 @@ body {
   font-size: 68pt;
   background-color: white;
   padding: 10px 10px 0px 10px;
+  margin: 10px;
 }
 
-.subtitle h3 {
-  font-size: 20pt;
-  color: white;
+.subtitle p {
+  font-size: 15pt;
+}
+
+.comingsoon h2 {
+  font-size: 30pt;
+    font-family: "portermedium";
+    text-align: center;
+    margin: 0;
 }
 
 footer {
@@ -48,8 +55,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 40%;
-    background-color: #222;
-    color: white;
+    color: #222;
     text-align: center;
 }
 
@@ -59,17 +65,21 @@ footer {
   bottom: 0;
   width: 100%;
   height: 6%;
-  background-color: #222;
-  color: white;
+  color: #222;
   text-align: center;
 }
 
 @font-face {
     font-family: "porterbold";
-    src:url("fonts/Porter Medium.otf");
+    src:url("fonts/Porter Bold.otf");
 }
 
 @font-face {
     font-family: "porterlight";
     src:url("fonts/Porter Light.otf");
+}
+
+@font-face {
+    font-family: "portermedium";
+    src:url("fonts/Porter Medium.otf");
 }
